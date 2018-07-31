@@ -27,24 +27,25 @@ a {
 }
 
 
-body:before {
-  background-image: url("http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-Wallpaper-iPhone-Plus-Wallpaper.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  background-repeat: no-repeat;
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
 
-}
+
+
+
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-Wallpaper-iPhone-Plus-Wallpaper.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .imgg{
   position: fixed;
